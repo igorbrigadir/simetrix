@@ -7,22 +7,19 @@ import java.util.LinkedList;
  * vocabulary distributions before computing any of the features.
  * @author Annie Louis
  */
-public class vocabDist{
-    LinkedList<String> vocabWords;
-    LinkedList<Integer> vocabFreq;
-    int numTokens;
+public class vocabDist {
+  LinkedList<String> vocabWords;
+  LinkedList<Integer> vocabFreq;
+  int numTokens;
 
-    public vocabDist(LinkedList<String> words, LinkedList<Integer> freq, int tokens)
-    {
-	vocabWords = words;
-	vocabFreq = freq;
-	numTokens = tokens;
-    }
+  public vocabDist(LinkedList<String> words, LinkedList<Integer> freq, int tokens) {
+    vocabWords = words;
+    vocabFreq = freq;
+    numTokens = tokens;
+  }
 
-    public void printStats()
-    {
-	System.out.println("vocabulary size = "+vocabWords.size());
-	System.out.println("total tokens = "+numTokens);
-    }
+  public void printStats() {
+    System.out.println("vocabulary size = " + vocabWords.size());
+    System.out.println("total tokens = " + numTokens);
+  }
 }
-    

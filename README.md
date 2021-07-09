@@ -19,5 +19,5 @@ An information-theoretic measure, Jensen Shannon divergence between vocabulary d
 
 Original Links:
 =========
-[http://homepages.inf.ed.ac.uk/alouis/software/ieval/SIMetrix-v1.tar.gz](Download SIMetrix) Version 1 (source and examples)
-[http://homepages.inf.ed.ac.uk/alouis/software/ieval/README.txt](View the README file) for information about how to set up an evaluation with the tool.
+[Download SIMetrix](http://homepages.inf.ed.ac.uk/alouis/software/ieval/SIMetrix-v1.tar.gz) Version 1 (source and examples)
+[View the README file](http://homepages.inf.ed.ac.uk/alouis/software/ieval/README.txt) for information about how to set up an evaluation with the tool.
